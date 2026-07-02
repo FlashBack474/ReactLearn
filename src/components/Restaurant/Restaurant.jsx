@@ -5,7 +5,7 @@ export const Restaurant = ({ restaurantInfo }) => {
   return (
     <div>
       <div>
-        <h1>{restaurantInfo.name}</h1>
+        <h2>{restaurantInfo.name}</h2>
       </div>
       <div>
         <Menu menu={restaurantInfo.menu} />
